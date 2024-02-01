@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2 id="result"></h2>
+
+    <script>
+      // Buat array kosong
+      let myArray = [];
+
+      // Tambahkan elemen 'apple' ke dalam array
+      myArray.push("apple");
+
+      // Tambahkan elemen 'banana' ke dalam array
+      myArray.push("banana");
+
+      // Hapus elemen terakhir dari array
+      myArray.pop();
+
+      // Tambahkan elemen 'orange' ke awal array
+      myArray.unshift("orange");
+
+      // Hapus elemen pertama dari array
+      myArray.shift();
+
+      // Tampilkan hasil di dalam elemen dengan id "result"
+      document.getElementById("result").innerHTML = "Hasil Akhir : " + myArray;
+    </script>
+  </body>
+</html>
